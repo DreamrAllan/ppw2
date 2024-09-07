@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 10px 0;
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(14, 106, 255);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar a.active {
+    background-color: rgb(0, 166, 255);
+}
+
+.footer {
+    background-color: aqua;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.isi {
+    background-color: beige;
+}
